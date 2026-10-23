@@ -9,9 +9,9 @@ on:
     inputs:
       platform:
         description: Platform
-        type: choice
+        type: android
         options: [ios, android, windows, macos, linux-x86_64, linux-aarch64]
-        default: ios
+        default: android
 
 permissions:
   contents: write
